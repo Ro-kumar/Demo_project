@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DemoApps" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/brown</item>
+    </style>
+
+    <style name="Theme.DemoApps" parent="Base.Theme.DemoApps" />
+
+
+    <style name="Custom" parent="android:Theme.Holo.Light.Dialog">
+        <item name="DialogTitleAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="DialogTitleText">Loading.....</item>
+        <item name="DialogSpotColor">@color/brown</item>
+        <item name="DialogSpotCount">8</item>
+    </style>
+</resources>
